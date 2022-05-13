@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CBSE Class X Result Calculator</title>
+	<!-- link for font -->
+	<link
+	href=
+"https://fonts.googleapis.com/css?family=Righteous&display=swap"
+	rel="stylesheet"
+	/>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<!-- main html -->
+	<div class="container">
+	<h1>CBSE Class X Result Calculator</h1><br>
+    <h3>Good Luck!</h3><br><br>
+    <h3>Enter your marks below</h3>
+	<div class="screen-body-item1">
+		<div class="app">
+		<div class="form-group">
+			<!-- option for taking the input -->
+			<h3>Science Term 1:</h3> <input
+			type="text"
+			class="form-control"
+			id="science"
+			/>
+		</div>
+		<div class="form-group">
+			<h3>Kannada/Hindi/Sanskrit Term 1</h3><input
+			type="text"
+			class="form-control"
+			id="hindi"
+			/>
+		</div>
+		<div class="form-group">
+			<h3>Mathematics Term 1</h3><input
+			type="text"
+			class="form-control"
+			id="maths"
+			/>
+		</div>
+		<div class="form-group">
+			<h3>Social Term 1</h3><input
+			type="text"
+			class="form-control"
+			id="social"
+			/>
+		</div>
+		<div class="form-group">
+			<h3>English Term 1</h3><input
+			type="text"
+			class="form-control"
+			id="eng"
+			/>
+		</div>
+		<div class="form-group">
+			<h3>Internals Term 1</h3><input
+			type="text"
+			class="form-control"
+			id="internals"
+			/>
+		</div>
+		</div>
+	</div>
+	<div class="screen-body-item2">
+		<div class="app2">
+		<div class="form-group">
+			<!-- option for taking the input -->
+			<h3>Science Term 2</h3> <input
+			type="text"
+			class="form-control"
+			id="science2"
+			/>
+		</div>
+		<div class="form-group">
+			<h3>Kannada/Hindi/Sanskrit Term 2</h3><input
+			type="text"
+			class="form-control"
+			id="hindi2"
+			/>
+		</div>
+		<div class="form-group">
+			<h3>Mathematics Term 2</h3><input
+			type="text"
+			class="form-control"
+			id="maths2"
+			/>
+		</div>
+		<div class="form-group">
+			<h3>Social Term 2</h3><input
+			type="text"
+			class="form-control"
+			id="social2"
+			/>
+		</div>
+		<div class="form-group">
+			<h3>English Term 2</h3><input
+			type="text"
+			class="form-control"
+			id="eng2"
+			/>
+		</div>
+		<div class="form-group">
+			<h3>Internals Term 2</h3><input
+			type="text"
+			class="form-control"
+			id="internals2"
+			/>
+		</div>
+		<div>
+			<input
+			type="button"
+			value="Calculate Result"
+			class="form-button"
+			onclick="calculate()"
+			/>
+		</div>
+		</div>
+	</div>
+	<!-- for showing the result-->
+	<div class="form-group showdata">
+		<p id="showdata"></p>
+	</div>
+	</div>
+	<!--adding external javascript file-->
+	<script src="script.js"></script>
+</body>
+</html>
